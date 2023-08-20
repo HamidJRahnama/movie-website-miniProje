@@ -58,7 +58,7 @@ function App() {
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Favorites" element={<Favorites />} />
-              <Route path="/Genre/:genre" element={<Genre data={state} />} />
+              <Route path="/Genre/:genre" element={<Genre />} />
             </Routes>
           </div>
 
