@@ -5,7 +5,6 @@ export const Home = () => {
   return (
     <>
       <div className="row my-2 g-2">
-        <h4>this is demo text</h4>
         <MovieCaed />
       </div>
     </>
