@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.btnHover {
+  opacity: 0;
+  background-color: aliceblue;
+}
+.cardHover:hover .btnHover {
+  transition: all 1s;
+  opacity: 1;
+}
